@@ -1,0 +1,22 @@
+body {
+  font: 13px/1.4 system-ui, sans-serif;
+  color: #000;
+  background: #fff;
+  margin: 12px;
+}
+.mono { font-family: ui-monospace, Menlo, Consolas, monospace; }
+h2 { font-size: 13px; margin: 16px 0 4px; }
+table { border-collapse: collapse; margin: 8px 0; }
+th, td { border: 1px solid #ddd; padding: 3px 8px; text-align: left; font-size: 13px; }
+.error { color: #c00; }
+.note { color: #555; margin: 0 0 4px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 4px 0;
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+}
+.row { display: flex; gap: 6px; margin: 4px 0; flex-wrap: wrap; }

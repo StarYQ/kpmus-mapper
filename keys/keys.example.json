@@ -1,0 +1,16 @@
+{
+  "polymarket_public": {
+    "prod": {
+      "client_id": "CLIENT_ID",
+      "private_key_path": "polymarket-private-key.pem",
+      "participant_id": "PARTICIPANT_ID"
+    }
+  },
+  "kalshi": {
+    "client_id": "KALSHI_API_KEY_ID",
+    "private_key_path": "kalshi-private-key.pem"
+  },
+  "anthropic": {
+    "api_key": "ANTHROPIC_API_KEY"
+  }
+}

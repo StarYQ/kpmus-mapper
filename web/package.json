@@ -1,0 +1,19 @@
+{
+  "name": "web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit && esbuild src/main.tsx --bundle --minify --outfile=dist/main.js && cp index.html style.css dist/",
+    "watch": "esbuild src/main.tsx --bundle --outfile=dist/main.js --watch"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.9.0"
+  }
+}
